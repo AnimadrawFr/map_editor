@@ -1,0 +1,25 @@
+$white: #e5e5e5;
+$green: #47c07c;
+$red: #ed4245;
+$purple: #4752d4;
+$dark_purple: #3f4581;
+$smoothy_grey: #36393f;
+$medium_gray: #2f3136;
+$smoothy_black: #202225;
+$black: #18191c;
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $smoothy_grey;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  .panel {
+    height: 100%;
+  }
+}
